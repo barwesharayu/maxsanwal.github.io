@@ -1,0 +1,243 @@
+.banner{
+    width: 100%;
+}
+
+.logo{
+    display: inline;   
+    padding:10px; 
+}
+
+.logo2{
+    display: none;
+}
+
+.menu{
+    display: block;  
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding:10px;
+    float: right;
+}
+
+
+a.navlink{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-family: rubik;
+    font-weight: bold;
+}
+
+a.navlink:visited{
+    text-decoration: none;
+    color:black;
+}
+
+a.navlink:hover{
+    text-decoration: none;
+    color: #9ACD32;
+    transition-duration: 0.3s;
+}
+
+.menu_link{
+    display: none;
+}
+.page{
+    display: block;
+    position: relative;
+}
+.head_img{
+    width:100%;
+    display: block;
+}
+.page .mid_text {
+    position: absolute;
+    top: 50%;
+    margin-top: -140px;
+    left: 0;
+    width: 100%;
+    color: #333;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 0px 12px rgba(255,255,255,.8), 0 0 9px rgba(255,255,255,.8), 0 0 6px rgba(255,255,255,.8), 0 0 3px rgba(255,255,255,.8);
+}
+.text_fruit{
+    margin-top: 150px;
+}
+.eat_head{
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.grid_images{
+    width: 100%;
+   margin-bottom: 5px;
+}
+
+.boxa{
+    display: block;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 3px 1px rgba(0,0,0,0.2);
+}
+.boxa_col1{
+    background-color: #edf7ef;
+    color: #4b7f5b;
+}
+
+.boxa_col2{
+    background-color: #fefef4;
+    color: #928d4d;
+}
+
+.boxa_col3{
+    background-color: #f0f9fe;
+    color: #2c6b8e;
+}
+
+.boxa_col4{
+    background-color: #fdeafe;
+    color: #b078a9;
+}
+
+.topping{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Rubik';
+}
+
+.topping2{
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.topping3{
+    min-height: 160px;
+}
+
+.butstyle1{
+    color: white;
+    background-color: #4b7f5b;
+    font-family: 'rubik';
+}
+
+.butstyle2{
+    color: white;
+    background-color: #928d4d;;
+    font-family: 'rubik';
+}
+
+.butstyle3{
+    color: white;
+    background-color: #2c6b8e;
+    font-family: 'rubik';
+}
+
+.butstyle4{
+    color: white;
+    background-color: #b078a9;
+    font-family: 'rubik';
+}
+
+.foot{
+    text-align: center;
+    margin-top: 50px;
+}
+.foot_head{
+    color: #333;
+    font-size: 24px;
+    display: block;
+    font-weight: bold;
+}
+
+.input_block{
+    display: block;
+}
+.input_si{
+    width:100px;
+    float:right;
+    border: none;
+}
+
+select.input_fontsi{
+    font-size: 9px;
+}
+
+.text_width{
+    display: block;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub_but{
+    background-color: #333333; 
+    border: none;
+    color: white;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    width:190px;
+}
+
+.sub_but:hover{
+    background-color: #9ACD32;
+    transition-duration: 0.3s;
+}
+.social{
+    margin-top: 50px;
+}
+
+.last{
+    padding: 10px 20px 20px;
+    color: #ccc;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1210px) {
+    .banner{
+        text-align: center;
+    }
+    .head_img{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .menu_link{
+        display: inline-block;
+        color: black;
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 40px;
+    }
+    .logo{
+        display: none;
+    }
+    .logo2{
+        display: inline-block;
+        padding: 15px;
+        height: 90px;
+    }
+    .page .mid_text {
+        font-size: 32px;
+        margin-top: -50px;
+    }
+    .grid_images{
+       display: none;
+    }
+    .fruit_img1{
+        display: none;
+    }
+}
